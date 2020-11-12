@@ -2,8 +2,8 @@
 %def_disable check
 
 Name:    python3-module-%modulename
-Version: 2.0
-Release: alt1
+Version: 3.1.0
+Release: alt2
 
 Summary: Utility functions for Python class constructs
 License: MIT
@@ -46,6 +46,9 @@ tox.py3 --sitepackages -v
 %exclude %python3_sitelibdir/jaraco/__pycache__/__init__*
 
 %changelog
+* Thu Nov 12 2020 Danil Shein <dshein@altlinux.org> 3.1.0-alt2
+- new version
+
 * Tue Dec 03 2019 Anton Farygin <rider@altlinux.ru> 2.0-alt1
 - first build for ALT
 
